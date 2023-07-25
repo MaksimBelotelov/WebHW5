@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First site</title>
+    <!-- Второй способ задать стиль-->
+    <!-- <style>  
+        h1 { 
+            color: aqua;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- Ctrl + / это комментарий -->
+    <header>
+        
+    </header>
+    <section class="wrapper">
+        <div class="box">
+            <h1 style="font-size: 30px;" class="title" id="el">Всем привет!</h1> <!-- Здесь стиль внутри тега. Так не делается на практике. -->
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt nesciunt ducimus sed cupiditate nulla praesentium, a animi eveniet vero consequatur odio repellat quae earum tenetur quisquam eaque quam facilis?</h2>
+        </div>
+        <div class="box">
+            <p>Всем привет!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus non est laudantium reiciendis nihil placeat illo quos consectetur nulla, culpa quas aperiam architecto et iste, officiis molestiae facilis eaque quasi.</p>
+        </div>
+    </section>
+    <section class="wrapper">
+        <img src="https://otkrit-ka.ru/uploads/posts/2021-09/skachat-krasivye-kartinki-na-telefon-besplatno-1.jpg" width=400 height=400 alt="Вишня">
+    </section>
+    <section>
+        <h2>Список моих дел:</h2>
+        <ul>
+            <li>Посетить семинар</li>
+            <li>Сходить на улицу</li>
+        </ul>
+        <h2>Список покупок:</h2>
+        <ol>
+            <li>Крупа</li>
+            <li>Вода</li>
+        </ol>
+        <button id="btn">Нажми меня!</button>
+    </section>
+    <section id="users">
+    </section>
+
+    <footer>
+        <form id="form">
+            <input type="text" placeholder="Имя">
+            <input type="submit" value="Отправить">
+        </form>
+    </footer>
+    <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/getScripts.js"></script>
+    <script src="./assets/scripts/postScript.js"></script>
+</body>
+</html>
